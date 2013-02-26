@@ -1,0 +1,204 @@
+body
+{
+    background:rgb(29, 94, 123);
+}
+
+.sch-scrumpanel
+{
+    background: transparent;
+}
+
+.sch-hidden
+{
+    height: 0;
+    margin:0;
+    padding:0;
+    border:0 none;
+    overflow: hidden;
+}
+
+.sch-scrumcolumn
+{
+    border-radius: 5px;
+    background-color: #D7D2D2;
+    background-image: -moz-linear-gradient(center top , #F0F0F0, #D7D7D7);
+    background-image: -webkit-linear-gradient(top , #F0F0F0, #D7D7D7);
+}
+
+.sch-scrumcolumn .x-panel-header-text
+{
+    font-size: 1.4em;
+    color:#666;
+    margin: 5px;
+    display: block;
+}
+
+.sch-scrumcolumn .x-panel-body,
+.sch-scrumcolumn .x-panel-header
+{
+    background: transparent;
+    border-color: transparent;
+}
+
+.sch-scrumcolumn .x-panel-body
+{
+    padding-top:10px;
+}
+
+.sch-task
+{
+	border-radius:4px;
+    box-shadow:1px 1px 1px rgba(150, 150, 150, 0.2);
+	border: 1px solid #ccc;
+	color:#888;
+	cursor:pointer;
+    margin:0 5px 7px 5px;
+    background: #fff;
+    position: relative;
+    /*overflow: hidden;*/
+}
+
+.sch-hidden
+{
+    height: 0;
+    margin:0;
+    padding:0;
+    border:0 none;
+    overflow: hidden;
+}
+
+
+.sch-task-over
+{
+    background: #eff;
+    border: 1px solid #bbb;
+}
+
+.x-item-selected
+{
+    border-color:royalblue;
+    background: #7b68ee;
+}
+
+.x-item-selected .sch-task-name
+{
+    color:#fff;
+    text-shadow: 1px 1px 1px navy;
+}
+
+.sch-tool-ct
+{
+    float:left;
+    width:90%;
+    margin-left:15px;
+    margin-bottom:5px;
+}
+
+.sch-tool
+{
+    margin-top: 7px;
+    float:left;
+    width:16px;
+    height:16px;
+    padding: 0 10px 0 15px;
+    font-size: 9px;
+    line-height: 12px;
+    border:1px solid #ccc;
+    border-radius: 3px;
+}
+
+.sch-tool:hover
+{
+    background-color:#ddd;
+    border-color:#bbb;
+}
+
+.sch-task-name
+{
+    margin-left:15px;
+    margin-top:3px;
+}
+
+.sch-tool-comment
+{
+    background: #eee url(../images/comment.png) no-repeat 2px center;
+    background-size:10px;
+}
+
+.sch-color
+{
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+    width: 7px;
+    position: absolute;
+    height: 100%;
+}
+
+.state-0 .sch-color
+{
+    background: brown;
+}
+
+.state-1 .sch-color
+{
+    background: rgb(231, 168, 75);
+}
+
+.state-2 .sch-color
+{
+    background: lightblue;
+}
+
+.state-3 .sch-color
+{
+    background: lightgreen;
+}
+
+.sch-user-avatar
+{
+    position: absolute;
+    bottom:-4px;
+    right:-4px;
+    width:20px;
+    height:20px;
+    border:1px solid #bababa;
+    padding: 1px;
+    border-radius: 2px;
+    background: #fff;
+}
+
+.sch-no-img
+{
+    display: none;
+    opacity: 0.6;
+}
+
+.sch-task-over .sch-no-img
+{
+    display: block;
+}
+
+.sch-no-img:hover
+{
+    opacity: 1;
+}
+
+
+.sch-usermenu .x-menu-item-icon
+{
+    background: transparent url(../images/user.png) no-repeat center center;
+    background-size: contain;
+    opacity: 0.4;
+}
+
+.sch-user-selected .x-menu-item-icon
+{
+    background: transparent url(../images/user_sel.png) no-repeat center center;
+    background-size: contain;
+    opacity: 1;
+}
+
+.x-panel-header-vertical
+{
+    cursor: pointer;
+}
